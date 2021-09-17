@@ -1,23 +1,28 @@
 body {
-  background-image: url("record.png");
   margin: 0;
 }
 
+.Body {
+  background-image: url("record.png");
+}
+
 header {
+  background-color: #B9317C; //Keeping this here so both lines have the same background color
+}
+
+.header_txt {
   text-align: center;
-  background-color: #B9317C;
   color: #DAC8BC;
 }
 
 main {
+  background-color: #D1D1D1; //Keeping this here so all text in main has the background color
+}
+
+.main_txt {
   padding: 1em;
-  background-color: #D1D1D1;
 }
 
 ul {
   background-color: #EFFFFA;
 }
-
-/*DAC8BC EFFFFA
-__STRETCH GOAL:__ Use CSS style classes vs element names to do your styling, except for adding the margin to the `body`.
- That is a good thing to add to every CSS file, and it should use the `body` HTML tag name.
